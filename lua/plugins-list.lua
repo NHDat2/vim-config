@@ -170,4 +170,5 @@ require('packer').startup(function(use)
         'xeluxee/competitest.nvim',
         requires = 'MunifTanjim/nui.nvim',
     })
+    use({ "rebelot/kanagawa.nvim" })
 end)
