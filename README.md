@@ -10,7 +10,7 @@ $ mv .local/share/nvim/ .local/share/nvim.bak
 Clone repo into `.config/nvim` folder
 
 ```bash
-$ git clone https://github.com/tuandzung/vim-config.git ~/.config/nvim
+$ git clone https://github.com/NHDat2/vim-config.git ~/.config/nvim
 ```
 
 Clone packer.nvim
