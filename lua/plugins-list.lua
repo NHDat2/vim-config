@@ -171,4 +171,12 @@ require('packer').startup(function(use)
         requires = 'MunifTanjim/nui.nvim',
     })
     use({ "rebelot/kanagawa.nvim" })
+    use {
+        "danymat/neogen",
+        requires = "nvim-treesitter/nvim-treesitter",
+    }
+    use {
+        'kkoomen/vim-doge',
+        run = ':call doge#install()'
+    }
 end)
