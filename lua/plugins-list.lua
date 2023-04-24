@@ -70,7 +70,7 @@ require('packer').startup(function(use)
 
     use({
         'folke/trouble.nvim',
-        branch = 'main',
+       branch = 'main',
     })
 
     use({
@@ -170,7 +170,7 @@ require('packer').startup(function(use)
         'xeluxee/competitest.nvim',
         requires = 'MunifTanjim/nui.nvim',
     })
-    use({ "rebelot/kanagawa.nvim" })
+    -- use({ "rebelot/kanagawa.nvim" })
     use {
         "danymat/neogen",
         requires = "nvim-treesitter/nvim-treesitter",
@@ -179,4 +179,6 @@ require('packer').startup(function(use)
         'kkoomen/vim-doge',
         run = ':call doge#install()'
     }
+    use ({ "rebelot/kanagawa.nvim" })
+    use ({ "junegunn/fzf.vim" })
 end)

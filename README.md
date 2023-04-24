@@ -24,5 +24,15 @@ Install packages
 ```bash
 $ nvim +"lua require'plugins-list'; require'packer'.sync()"
 ```
+
+Requirements
+```bash
+neovim | python package (global environment recommend)
+ripgrep | package
+ripgrep-all | package
+fzf | package
+
+```
+
 ## Screenshots
 
